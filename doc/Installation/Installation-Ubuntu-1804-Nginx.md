@@ -100,11 +100,11 @@ vi /etc/php/7.2/cli/php.ini
 
 ```bash
 systemctl restart php7.2-fpm
-´´´
-
 ```
+
+```bash
 timedatectl set-timezone Etc/UTC
-´´´
+```
 
 ## Configure NGINX
 
